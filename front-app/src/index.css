@@ -1,0 +1,49 @@
+body{
+  /* width: 100%; */
+  overflow: none;
+}
+Footer {
+  background-color: black;
+  width: 100%;
+  height: fit-content;
+  margin-top: 20%;
+  color: blanchedalmond;
+  font-size: 12px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 90px 160px;
+  gap: 2vw;
+  padding-bottom: 15vw;
+}
+.footer li {
+  width: 15vw;
+}
+.para {
+  margin-top: 9vh;
+  max-width: 30vw;
+}
+.flist {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.instagram {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 934px) {
+  .footer {
+    gap: 5vh;
+    flex-direction: column;
+  }
+  .instagram {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+a{
+  text-decoration: none;
+}

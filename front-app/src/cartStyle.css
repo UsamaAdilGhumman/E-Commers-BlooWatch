@@ -1,0 +1,33 @@
+.cart_div {
+  /* margin: 50px auto; */
+  margin: 70px;
+  /* margin-left: 50px; */
+  /* background-color: black; */
+}
+.total_div {
+  display: flex;
+}
+.product_img_div {
+  max-width: 35px;
+}
+.cart_product_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.quan_num {
+    display: inline-block;
+    position: relative;
+    top: 22px;
+    right: 32px;
+}
+.up__arraw{
+    display: inline-block;
+    position: relative;
+    bottom: 21px;
+    left: 63px;
+}
+.down__arraw{
+    display: inline-block;
+}
